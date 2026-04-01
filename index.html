@@ -399,30 +399,39 @@
       margin-bottom: 20px;
     }
 
-    .coming-soon-box {
-      border: 1px solid rgba(255,255,255,0.12);
-      border-radius: 4px;
-      padding: 48px 36px;
-      text-align: center;
-      background: rgba(255,255,255,0.03);
+    .returns-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.8125rem;
     }
 
-    .coming-soon-label {
-      font-size: 1.25rem;
+    .returns-table th {
+      text-align: left;
+      padding: 8px 12px;
+      font-size: 0.7rem;
       font-weight: 700;
-      letter-spacing: 0.14em;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
-      color: rgba(255,255,255,0.55);
-      margin-bottom: 16px;
+      color: rgba(255,255,255,0.40);
+      border-bottom: 1px solid rgba(255,255,255,0.10);
     }
 
-    .coming-soon-sub {
-      font-size: 0.875rem;
-      color: rgba(255,255,255,0.35);
-      line-height: 1.7;
-      max-width: 340px;
-      margin: 0 auto;
+    .returns-table th:not(:first-child),
+    .returns-table td:not(:first-child) {
+      text-align: right;
     }
+
+    .returns-table td {
+      padding: 9px 12px;
+      color: rgba(255,255,255,0.80);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .returns-table tr:hover td { background: rgba(255,255,255,0.04); }
+
+    .pos { color: #5DF094; }
+    .neg { color: #FF6B6B; }
+    .outperform { color: #5DF094; font-weight: 700; }
 
     /* ─── FOOTER ──────────────────────────────────────────── */
     footer {
@@ -679,16 +688,27 @@
         </ul>
       </div>
 
-      <!-- Right: coming soon panel -->
+      <!-- Right: performance table -->
       <div class="returns-panel">
         <p class="returns-heading">Performance Track Record</p>
-        <div class="coming-soon-box">
-          <p class="coming-soon-label">Coming Soon</p>
-          <p class="coming-soon-sub">
-            Live performance data will be published here once DB Capital begins
-            reporting externally. Check back for verified monthly returns vs. the Russell 2500.
-          </p>
-        </div>
+        <table class="returns-table">
+          <thead>
+            <tr>
+              <th>Month</th>
+              <th>DB Capital</th>
+              <th>Russell 2500</th>
+              <th>Relative Outperformance</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>March 2026</td>
+              <td class="pos">+1.18%</td>
+              <td class="neg">-5.20%</td>
+              <td class="outperform">+6.38%</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
     </div>
