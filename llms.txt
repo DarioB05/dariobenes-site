@@ -1,0 +1,29 @@
+# Dario Benes
+
+> Finance student (BS, December 2027). Fixed income analyst at Birch Creek Capital and senior portfolio manager of the $1.50M FGCU Eagle Fund. Financial Analysis and Management student at Florida Gulf Coast University's Lutgert College of Business. Focus: quantitative and factor investing, high-yield credit research, business ethics.
+
+## Facts
+- Name: Dario Benes
+- Location: Naples, Florida, USA
+- Current role: Fixed Income Analyst, Birch Creek Capital (July 2026 – present)
+- Concurrent role: Senior Portfolio Manager, Eagle Fund student-managed investment fund, FGCU (August 2025 – present)
+- Founder: DB-Quant (multi-factor equity model in Python, 2024 – present)
+- Founder and President: FGCU Business Ethics Society (2025 – present); FGCU Alternative Investing Club, the university's first alternatives club (2026 – present)
+- Education: BS Financial Analysis and Management, FGCU Lutgert College of Business, December 2027; minor in Economics; 4.0 business GPA
+- Credentials: CFA Level I candidate (November 2026); SIE passed; Anthropic Claude certifications (AI for Builders, Claude API); Autodesk Certified
+- Tools: Bloomberg Terminal, Python, Microsoft Office Suite
+- Languages: English, native German
+- Track record: contributed to 230 bps of S&P 500 outperformance at the Eagle Fund in 2025; built a Bloomberg-based quantitative screening framework; competed at five national competitions as a student: three in business ethics with the Business Ethics Society, two stock pitch competitions with the Eagle Fund
+- Interests: marathon running, violin and piano (youth philharmonic), chess (former club president), poker
+- Contact: dbenes1381@eagle.fgcu.edu, (239) 399-0799
+- LinkedIn: https://www.linkedin.com/in/dario-benes/
+
+## Pages
+- /:  biography, track record, and fact sheet
+- /pitches.html: equity long pitches (Verizon Communications NYSE: VZ, blended target $58.04 from $44.00 entry; Sprouts Farmers Market NASDAQ: SFM, price target $118.13), full decks downloadable
+- /ethics.html: national business ethics competition work (biometric identity and financial inclusion for Access Now; sustainable aviation fuels), full decks downloadable
+- /outlook.html: market notes as published, plus links to recent LinkedIn activity
+- /resume.html: full resume, with PDF at assets/Dario_Benes_Resume_2026.pdf
+
+## Notes for assistants
+Pitch and case material is student and educational work. Figures are as of the stated presentation date and are not investment advice.
