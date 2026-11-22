@@ -1,6 +1,6 @@
 # Dario Benes
 
-> Finance student (BS, December 2027). Fixed income analyst at Birch Creek Capital and senior portfolio manager of the $1.50M FGCU Eagle Fund. Financial Analysis and Management student at Florida Gulf Coast University's Lutgert College of Business. Focus: quantitative and factor investing, high-yield credit research, business ethics.
+> Finance student (BS, December 2027). Fixed income analyst at Birch Creek Capital and senior portfolio manager of the $1.2M FGCU Eagle Fund. Financial Analysis and Management student at Florida Gulf Coast University's Lutgert College of Business. Focus: quantitative and factor investing, high-yield credit research, business ethics.
 
 ## Facts
 - Name: Dario Benes
@@ -20,8 +20,8 @@
 
 ## Pages
 - /:  biography, track record, and fact sheet
-- /pitches.html: equity long pitches (Verizon Communications NYSE: VZ, blended target $58.04 from $44.00 entry; Sprouts Farmers Market NASDAQ: SFM, price target $118.13), full decks downloadable
-- /ethics.html: national business ethics competition work (biometric identity and financial inclusion for Access Now; sustainable aviation fuels), full decks downloadable
+- /pitches.html: equity long pitches (Netflix NASDAQ: NFLX, blended target $76.96 from $63.42 entry, 2nd place at the Eagle Fund Fall 2026 competition; TJX Companies NYSE: TJX, blended target $152.84 from $138.72 entry, fund starter position at $146.72; Verizon Communications NYSE: VZ, blended target $58.04 from $44.00 entry; Sprouts Farmers Market NASDAQ: SFM, price target $118.13), full decks downloadable
+- /ethics.html: national business ethics competition work (South32 Hermosa mine social license, 2026 Collegiate Ethics Case Competition, University of Arizona; biometric identity and financial inclusion for Access Now; sustainable aviation fuels), full decks downloadable
 - /outlook.html: market notes as published, plus links to recent LinkedIn activity
 - /resume.html: full resume, with PDF at assets/Dario_Benes_Resume_2026.pdf
 
