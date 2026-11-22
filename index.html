@@ -289,6 +289,8 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
 @media (prefers-reduced-motion:reduce){.faq-icon::before,.faq-icon::after{transition:none}}
 </style><style id="mobile">
 .m-only{display:none}
+.m-hero-top,.m-hero-body{display:contents}
+.m-m{display:none}
 @media (max-width:767.98px){
 /* reveal: quick, short fade */
 @keyframes dbRiseM{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
@@ -327,14 +329,22 @@ dl>div[style*="space-between"] dt{font-size:13px!important;letter-spacing:.04em!
 div:has(>div>div[style*="font-size: 30px"]){display:grid!important;grid-template-columns:1fr 1fr;gap:16px 14px!important;padding:16px!important}
 div>div>div[style*="font-size: 30px"]{font-size:24px!important}
 article>div[style*="border-top"][style*="flex-wrap: wrap"]{padding:16px 20px;gap:8px!important}
-/* home: hero */
-.m-hero{min-height:0!important;max-height:100svh}
-.m-hero-inner{max-width:none!important;padding:40px 20px 32px!important}
-.m-loc{font-size:13px!important;margin-bottom:14px!important}
+/* home: hero = photo band (location + name) over a solid navy block */
+.m-d{display:none!important}
+.m-m{display:inline}
+.m-hero{display:block!important;min-height:0!important;max-height:none;overflow:hidden}
+.m-hero-img{inset:0 0 auto 0!important;height:46vh!important;height:46svh!important;object-position:34% 40%!important}
+.m-hero-shade{inset:0 0 auto 0!important;height:46vh;height:46svh;background:linear-gradient(180deg,rgba(10,22,40,0) 0%,rgba(10,22,40,0) 40%,rgba(10,22,40,.7) 100%)!important}
+.m-hero-inner{max-width:none!important;padding:0!important}
+.m-hero-top{display:flex;flex-direction:column;justify-content:flex-end;height:46vh;height:46svh;padding:0 20px 20px}
+.m-hero-body{display:block;background:rgb(10,22,40);padding:24px 20px 32px}
+.m-loc{font-size:13px!important;margin:0 0 8px!important;color:rgba(255,255,255,.85)!important}
 .m-name{font-size:40px!important}
-.m-intro{font-size:17px!important;line-height:1.55!important;margin-top:16px!important}
-.m-ctas{flex-direction:column;gap:10px!important;margin-top:24px!important}
-.m-ctas a{width:100%;min-height:48px;padding:0 16px!important;font-size:14px!important}
+.m-hero p.m-intro{margin:0!important;font-size:17px!important;line-height:1.55!important}
+.m-hero p.m-open{display:inline-flex;margin:16px 0 0!important;padding:6px 12px;border:1px solid rgba(110,168,255,.45);border-radius:999px;font-size:13px!important;font-weight:500!important;letter-spacing:0!important;text-transform:none!important;line-height:1.35!important;color:rgba(255,255,255,.88)!important}
+.m-ctas{flex-direction:row!important;flex-wrap:wrap;gap:10px!important;margin-top:20px!important}
+.m-ctas a{flex:1 1 0;min-width:0;min-height:48px;padding:0 12px!important;font-size:14px!important;white-space:nowrap}
+.m-ctas a:first-child{flex-basis:100%}
 /* home: stats as 3 tight rows */
 .m-stats{padding:20px!important}
 .m-stats>div{display:flex!important;flex-direction:column;gap:0!important}
@@ -389,17 +399,21 @@ footer>div>div:last-child>span{flex-basis:100%}
   </nav>
 
   <section class="m-hero" style="position: relative; min-height: min(86vh, 760px); display: flex; align-items: flex-end; overflow: hidden; background: rgb(10, 22, 40);">
-    <picture><source srcset="/assets/img/skyline-1600.webp" type="image/webp"><img data-drift="" src="/assets/img/skyline-1600.jpg" alt="Lower Manhattan skyline" width="1600" height="1066" fetchpriority="high" decoding="async" style="position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 42%;"></picture>
-    <div style="position: absolute; inset: 0px; background: linear-gradient(180deg, rgba(10, 22, 40, 0.62) 0%, rgba(10, 22, 40, 0.5) 45%, rgba(10, 22, 40, 0.93) 100%);"></div>
+    <picture><source srcset="/assets/img/skyline-1600.webp" type="image/webp"><img data-drift="" class="m-hero-img" src="/assets/img/skyline-1600.jpg" alt="Lower Manhattan skyline" width="1600" height="1066" fetchpriority="high" decoding="async" style="position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 42%;"></picture>
+    <div class="m-hero-shade" style="position: absolute; inset: 0px; background: linear-gradient(180deg, rgba(10, 22, 40, 0.62) 0%, rgba(10, 22, 40, 0.5) 45%, rgba(10, 22, 40, 0.93) 100%);"></div>
     <div class="m-hero-inner" style="position: relative; width: 100%; max-width: min(1560px, 94vw); margin: 0px auto; padding: clamp(60px, 10vw, 120px) clamp(20px, 4vw, 48px) clamp(44px, 6vw, 72px);">
+      <div class="m-hero-top">
       <p data-reveal="" class="m-loc" style="margin: 0px 0px 22px; font-size: 11px; font-weight: 600; letter-spacing: 0.24em; text-transform: uppercase; color: rgba(255, 255, 255, 0.55);">Naples &amp; Fort Myers, Florida</p>
       <h1 data-reveal="" data-delay="1" class="m-name" style="margin: 0px; font-family: &quot;Newsreader&quot;, serif; font-weight: 300; font-size: clamp(46px, 9vw, 104px); line-height: 1; letter-spacing: -0.02em; color: rgb(255, 255, 255);">Dario Benes</h1>
-      <p data-reveal="" data-delay="2" class="m-intro" style="margin: 26px 0px 0px; max-width: 640px; font-size: clamp(16px, 1.9vw, 20px); line-height: 1.55; color: rgba(255, 255, 255, 0.8);">Finance student at Florida Gulf Coast University, graduating May 2027, and Senior Portfolio Manager of the FGCU Eagle Fund, a $1.2M student managed fund. My focus is credit: distressed and high yield, municipal and corporate, plus quantitative and factor investing.</p>
-      <p data-reveal="" data-delay="2" style="margin: 18px 0px 0px; max-width: 640px; font-size: 13px; font-weight: 600; letter-spacing: 0.12em; line-height: 1.6; text-transform: uppercase; color: rgb(110, 168, 255);">Open to full time credit and investment analyst roles starting 2027.</p>
+      </div>
+      <div class="m-hero-body">
+      <p data-reveal="" data-delay="2" class="m-intro" style="margin: 26px 0px 0px; max-width: 640px; font-size: clamp(16px, 1.9vw, 20px); line-height: 1.55; color: rgba(255, 255, 255, 0.8);"><span class="m-d">Finance student at Florida Gulf Coast University, graduating May 2027, and Senior Portfolio Manager of the FGCU Eagle Fund, a $1.2M student managed fund. My focus is credit: distressed and high yield, municipal and corporate, plus quantitative and factor investing.</span><span class="m-m">Finance student at FGCU (May 2027) and Senior Portfolio Manager of the FGCU Eagle Fund, a $1.2M student managed fund. I focus on credit: distressed and high yield, plus quant and factor investing.</span></p>
+      <p data-reveal="" data-delay="2" class="m-open" style="margin: 18px 0px 0px; max-width: 640px; font-size: 13px; font-weight: 600; letter-spacing: 0.12em; line-height: 1.6; text-transform: uppercase; color: rgb(110, 168, 255);"><span class="m-d">Open to full time credit and investment analyst roles starting 2027.</span><span class="m-m">Open to credit and investment analyst roles, 2027</span></p>
       <div data-reveal="" data-delay="3" class="m-ctas" style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 38px;">
         <a href="/pitches" style="padding: 13px 26px; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(10, 22, 40); background: rgb(255, 255, 255); border: 1.5px solid rgb(255, 255, 255);" class="scp1">See the pitches</a>
-        <a href="/assets/Dario_Benes_Resume_2026.pdf" download="" style="padding: 13px 26px; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(255, 255, 255); border: 1.5px solid rgba(255, 255, 255, 0.55);" class="scp2">Download resume (PDF)</a>
+        <a href="/assets/Dario_Benes_Resume_2026.pdf" download="" style="padding: 13px 26px; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(255, 255, 255); border: 1.5px solid rgba(255, 255, 255, 0.55);" class="scp2"><span class="m-d">Download resume (PDF)</span><span class="m-m">Resume (PDF)</span></a>
         <a href="https://www.linkedin.com/in/dario-benes/" target="_blank" rel="noopener" style="padding: 13px 26px; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(255, 255, 255); border: 1.5px solid rgba(255, 255, 255, 0.55);" class="scp2">LinkedIn</a>
+      </div>
       </div>
     </div>
   </section>
