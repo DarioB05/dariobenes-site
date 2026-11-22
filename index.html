@@ -287,6 +287,91 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
 .faq-item p{margin:0;padding:0 38px 24px 0;font-size:15px;line-height:1.75;color:rgb(76,86,107)}
 @media (max-width:767.98px){.faq-item summary{padding:18px 0}.faq-item p{padding-right:0;padding-bottom:20px}}
 @media (prefers-reduced-motion:reduce){.faq-icon::before,.faq-icon::after{transition:none}}
+</style><style id="mobile">
+.m-only{display:none}
+@media (max-width:767.98px){
+/* reveal: quick, short fade */
+@keyframes dbRiseM{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+[data-reveal][data-in]{animation:dbRiseM .3s ease-out both}
+[data-reveal][data-in][data-delay="1"]{animation-delay:.05s}
+[data-reveal][data-in][data-delay="2"]{animation-delay:.1s}
+[data-reveal][data-in][data-delay="3"]{animation-delay:.15s}
+.m-only{display:block}
+.m-hide,#facts{display:none!important}
+/* layout: 20px sides, 40px max vertical */
+.sc-host>div>:is(section,main,footer)[style*="padding"]{padding:40px 20px!important}
+.sc-host>div>header[style*="padding"]{padding:32px 20px 40px!important}
+[style*="94vw"]{max-width:100%!important}
+.sc-host>div>main{gap:32px!important}
+:is(article,main div,main section)[style*="padding: clamp("]{padding:20px!important}
+/* type: body 16-17px / 1.6, nothing under 13px */
+p:not([style*="uppercase"]):not([data-label]),li,dd{font-size:16px!important;line-height:1.6!important}
+[style*="font-size: 11px"],[style*="font-size: 12px"],[style*="font-size: 13px"],.nav-toggle,nav[data-js] .nav-toggle{font-size:13px!important}
+[style*="font-size: 12px"]:not([style*="uppercase"]),[style*="font-size: 14px"]:not([style*="uppercase"]){font-size:15px!important}
+/* tap targets */
+a[style*="padding"],button{min-height:44px}
+a[style*="text-transform: uppercase"][style*="padding"]{display:inline-flex;align-items:center;justify-content:center}
+a[style*="text-transform: uppercase"]:not([style*="padding"]),.m-more{display:inline-flex;align-items:center;min-height:44px;padding-block:0!important}
+h2 a,h3 a{display:inline-flex;align-items:center;min-height:44px}
+p a,li a,dd a{padding-block:12px;margin-block:-12px}
+footer a,main a[href^="mailto:"],main a[href^="tel:"],aside a,nav ol a,nav[aria-label] a{display:inline-flex;align-items:center;min-height:44px}
+/* nav: full-width panel, 48px links */
+nav[data-js] .nav-links{margin:0 -20px;padding:0 0 8px!important;flex-basis:calc(100% + 40px)}
+nav[data-js] .nav-links a{min-height:48px;padding:0 20px;font-size:14px}
+/* key numbers: 2-column grid */
+dl:has(>div[style*="space-between"]){display:grid!important;grid-template-columns:1fr 1fr;gap:1px!important;background:rgb(225,229,238);border:1px solid rgb(225,229,238)!important}
+dl>div[style*="space-between"]{flex-direction:column;align-items:flex-start!important;justify-content:flex-start!important;gap:4px!important;padding:12px!important;border:0!important;background:#fff}
+dl>div[style*="space-between"]>dd[style]{text-align:left!important;font-size:17px!important;line-height:1.3!important}
+dl>div[style*="space-between"] dt{font-size:13px!important;letter-spacing:.04em!important;line-height:1.35}
+/* ethics: figures as 2-col grid, padded tag row */
+div:has(>div>div[style*="font-size: 30px"]){display:grid!important;grid-template-columns:1fr 1fr;gap:16px 14px!important;padding:16px!important}
+div>div>div[style*="font-size: 30px"]{font-size:24px!important}
+article>div[style*="border-top"][style*="flex-wrap: wrap"]{padding:16px 20px;gap:8px!important}
+/* home: hero */
+.m-hero{min-height:0!important;max-height:100svh}
+.m-hero-inner{max-width:none!important;padding:40px 20px 32px!important}
+.m-loc{font-size:13px!important;margin-bottom:14px!important}
+.m-name{font-size:40px!important}
+.m-intro{font-size:17px!important;line-height:1.55!important;margin-top:16px!important}
+.m-ctas{flex-direction:column;gap:10px!important;margin-top:24px!important}
+.m-ctas a{width:100%;min-height:48px;padding:0 16px!important;font-size:14px!important}
+/* home: stats as 3 tight rows */
+.m-stats{padding:20px!important}
+.m-stats>div{display:flex!important;flex-direction:column;gap:0!important}
+.m-stats>div>div{display:grid;grid-template-columns:96px 1fr;align-items:center;gap:12px;padding:10px 0;border-top:1px solid rgba(255,255,255,.1)}
+.m-stats>div>div:first-child{border-top:0}
+.m-stats>div>div>div:first-child{font-size:26px!important}
+.m-stats>div>div>div+div{margin:0!important;font-size:13px!important;letter-spacing:.06em!important;line-height:1.35}
+/* home: about with small headshot */
+.m-about{padding:40px 20px!important;gap:16px}
+.m-headshot{min-height:0!important;width:132px;height:132px;border-radius:50%;overflow:hidden;justify-self:start}
+.m-about>div+div{padding:0!important;gap:14px!important}
+.m-about h2{font-size:26px!important}
+/* home: experience cards */
+.m-exp article{flex-flow:row wrap!important;column-gap:10px!important;row-gap:2px!important;padding:16px!important;border:1px solid rgb(228,231,239);border-top:2px solid rgb(10,22,40)}
+.m-exp article>h3{order:0;flex-basis:100%;font-size:18px!important}
+.m-exp article>div:has(+h3){order:2;flex-basis:100%}
+.m-exp article>h3+div{order:1;flex-basis:100%}
+.m-exp article>ul{order:3;flex-basis:100%;margin-top:8px!important}
+.m-exp article li:nth-child(n+3),.m-exp article:nth-child(n+3) li:nth-child(n+2){display:none}
+.m-exp [style*="repeat(auto-fit"]{gap:12px!important}
+.m-exp>div>div{gap:24px!important}
+.m-more{font-size:14px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgb(34,81,204);margin-top:-8px}
+/* home: work cards */
+.m-work h2{margin-bottom:20px!important}
+.m-work a[class^="scp"]{padding:20px!important;gap:6px!important}
+.m-work a[class^="scp"]>span:first-child{display:none}
+.m-work a[class^="scp"]>span:nth-child(2){font-size:22px!important}
+.m-work [style*="repeat(auto-fit"]{gap:12px!important}
+/* footer: compact */
+footer>div{gap:16px!important}
+footer>div>div{gap:0!important}
+footer>div>div:last-child{flex-direction:row!important;flex-wrap:wrap;align-items:center!important;column-gap:24px!important}
+footer>div>div:last-child>span{flex-basis:100%}
+/* home: Q&A heading spacing */
+#about-dario-benes h2{margin-bottom:16px!important}
+}
+@media (prefers-reduced-motion:reduce){[data-reveal],[data-reveal][data-in]{opacity:1!important;animation:none!important;transform:none!important}}
 </style></head>
 <body>
 <div class="sc-host" data-sc-name="index"><div style="font-family: &quot;Instrument Sans&quot;, system-ui, sans-serif; color: rgb(19, 24, 36); line-height: 1.6;">
@@ -303,15 +388,15 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
     </div>
   </nav>
 
-  <section style="position: relative; min-height: min(86vh, 760px); display: flex; align-items: flex-end; overflow: hidden; background: rgb(10, 22, 40);">
+  <section class="m-hero" style="position: relative; min-height: min(86vh, 760px); display: flex; align-items: flex-end; overflow: hidden; background: rgb(10, 22, 40);">
     <picture><source srcset="/assets/img/skyline-1600.webp" type="image/webp"><img data-drift="" src="/assets/img/skyline-1600.jpg" alt="Lower Manhattan skyline" width="1600" height="1066" fetchpriority="high" decoding="async" style="position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 42%;"></picture>
     <div style="position: absolute; inset: 0px; background: linear-gradient(180deg, rgba(10, 22, 40, 0.62) 0%, rgba(10, 22, 40, 0.5) 45%, rgba(10, 22, 40, 0.93) 100%);"></div>
-    <div style="position: relative; width: 100%; max-width: min(1560px, 94vw); margin: 0px auto; padding: clamp(60px, 10vw, 120px) clamp(20px, 4vw, 48px) clamp(44px, 6vw, 72px);">
-      <p data-reveal="" style="margin: 0px 0px 22px; font-size: 11px; font-weight: 600; letter-spacing: 0.24em; text-transform: uppercase; color: rgba(255, 255, 255, 0.55);">Naples &amp; Fort Myers, Florida</p>
-      <h1 data-reveal="" data-delay="1" style="margin: 0px; font-family: &quot;Newsreader&quot;, serif; font-weight: 300; font-size: clamp(46px, 9vw, 104px); line-height: 1; letter-spacing: -0.02em; color: rgb(255, 255, 255);">Dario Benes</h1>
-      <p data-reveal="" data-delay="2" style="margin: 26px 0px 0px; max-width: 640px; font-size: clamp(16px, 1.9vw, 20px); line-height: 1.55; color: rgba(255, 255, 255, 0.8);">Finance student at Florida Gulf Coast University, graduating May 2027, and Senior Portfolio Manager of the FGCU Eagle Fund, a $1.2M student managed fund. My focus is credit: distressed and high yield, municipal and corporate, plus quantitative and factor investing.</p>
+    <div class="m-hero-inner" style="position: relative; width: 100%; max-width: min(1560px, 94vw); margin: 0px auto; padding: clamp(60px, 10vw, 120px) clamp(20px, 4vw, 48px) clamp(44px, 6vw, 72px);">
+      <p data-reveal="" class="m-loc" style="margin: 0px 0px 22px; font-size: 11px; font-weight: 600; letter-spacing: 0.24em; text-transform: uppercase; color: rgba(255, 255, 255, 0.55);">Naples &amp; Fort Myers, Florida</p>
+      <h1 data-reveal="" data-delay="1" class="m-name" style="margin: 0px; font-family: &quot;Newsreader&quot;, serif; font-weight: 300; font-size: clamp(46px, 9vw, 104px); line-height: 1; letter-spacing: -0.02em; color: rgb(255, 255, 255);">Dario Benes</h1>
+      <p data-reveal="" data-delay="2" class="m-intro" style="margin: 26px 0px 0px; max-width: 640px; font-size: clamp(16px, 1.9vw, 20px); line-height: 1.55; color: rgba(255, 255, 255, 0.8);">Finance student at Florida Gulf Coast University, graduating May 2027, and Senior Portfolio Manager of the FGCU Eagle Fund, a $1.2M student managed fund. My focus is credit: distressed and high yield, municipal and corporate, plus quantitative and factor investing.</p>
       <p data-reveal="" data-delay="2" style="margin: 18px 0px 0px; max-width: 640px; font-size: 13px; font-weight: 600; letter-spacing: 0.12em; line-height: 1.6; text-transform: uppercase; color: rgb(110, 168, 255);">Open to full time credit and investment analyst roles starting 2027.</p>
-      <div data-reveal="" data-delay="3" style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 38px;">
+      <div data-reveal="" data-delay="3" class="m-ctas" style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 38px;">
         <a href="/pitches" style="padding: 13px 26px; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(10, 22, 40); background: rgb(255, 255, 255); border: 1.5px solid rgb(255, 255, 255);" class="scp1">See the pitches</a>
         <a href="/assets/Dario_Benes_Resume_2026.pdf" download="" style="padding: 13px 26px; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(255, 255, 255); border: 1.5px solid rgba(255, 255, 255, 0.55);" class="scp2">Download resume (PDF)</a>
         <a href="https://www.linkedin.com/in/dario-benes/" target="_blank" rel="noopener" style="padding: 13px 26px; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(255, 255, 255); border: 1.5px solid rgba(255, 255, 255, 0.55);" class="scp2">LinkedIn</a>
@@ -320,7 +405,7 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
   </section>
 
   
-    <section data-reveal="" style="background: rgb(10, 22, 40); border-top: 1px solid rgba(255, 255, 255, 0.08); padding: clamp(32px, 4vw, 48px) clamp(20px, 4vw, 48px);">
+    <section data-reveal="" class="m-stats" style="background: rgb(10, 22, 40); border-top: 1px solid rgba(255, 255, 255, 0.08); padding: clamp(32px, 4vw, 48px) clamp(20px, 4vw, 48px);">
       <div style="max-width: min(1560px, 94vw); margin: 0px auto; display: grid; grid-template-columns: repeat(auto-fit,minmax(190px,1fr)); gap: 28px;">
         <div data-reveal="">
           <div style="font-family: &quot;Newsreader&quot;, serif; font-size: clamp(30px, 3.6vw, 42px); line-height: 1; color: rgb(255, 255, 255);">$1.2M</div>
@@ -338,31 +423,31 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
     </section>
   
 
-  <section data-reveal="" id="about" data-stack="" style="display: grid; grid-template-columns: minmax(300px,0.85fr) 1.15fr; background: rgb(250, 248, 244);">
-    <div style="position: relative; min-height: 460px; background: rgb(231, 227, 218);">
+  <section data-reveal="" id="about" data-stack="" class="m-about" style="display: grid; grid-template-columns: minmax(300px,0.85fr) 1.15fr; background: rgb(250, 248, 244);">
+    <div class="m-headshot" style="position: relative; min-height: 460px; background: rgb(231, 227, 218);">
       <picture><source srcset="/assets/img/headshot-800.webp" type="image/webp"><img src="/assets/img/headshot-800.jpg" alt="Portrait of Dario Benes" width="800" height="800" loading="lazy" decoding="async" style="position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 18%;"></picture>
     </div>
     <div style="padding: clamp(48px, 6vw, 88px) clamp(24px, 5vw, 72px); display: flex; flex-direction: column; justify-content: center; gap: 20px;">
       <p style="margin: 0px; font-size: 11px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: rgb(34, 81, 204);" data-label="">About</p>
       <h2 style="margin: 0px; font-family: &quot;Newsreader&quot;, serif; font-weight: 400; font-size: clamp(28px, 3.6vw, 44px); line-height: 1.15; letter-spacing: -0.01em; color: rgb(10, 22, 40);">Credit research and quantitative investing, built by iterating.</h2>
       <p style="margin: 0px; max-width: 56ch; font-size: 16px; line-height: 1.75; color: rgb(76, 86, 107);">Financial Analysis and Management at Florida Gulf Coast University's Lutgert College of Business, minor in Economics, graduating May 2027. CFA Level I candidate for November 2026, SIE passed.</p>
-      <p style="margin: 0px; max-width: 56ch; font-size: 16px; line-height: 1.75; color: rgb(76, 86, 107);">From July to November 2026 I worked at Birch Creek Capital, a Philadelphia RIA, as a Fixed Income Analyst researching distressed and high yield municipal credits through EMMA continuing disclosures to feed the PM's buy and no buy decisions. At the Eagle Fund I built a quantitative screening framework on the Bloomberg Terminal that combines factor signals with the sector leads' fundamental research. On my own time I run DB-Quant, a multi-factor equity model in Python with a full research and backtesting pipeline.</p>
-      <p style="margin: 0px; max-width: 56ch; font-size: 16px; line-height: 1.75; color: rgb(76, 86, 107);">Native German speaker. Former chess club president, violinist and pianist in a youth philharmonic, marathon runner, poker player.</p>
-      <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px;">
+      <p class="m-hide" style="margin: 0px; max-width: 56ch; font-size: 16px; line-height: 1.75; color: rgb(76, 86, 107);">From July to November 2026 I worked at Birch Creek Capital, a Philadelphia RIA, as a Fixed Income Analyst researching distressed and high yield municipal credits through EMMA continuing disclosures to feed the PM's buy and no buy decisions. At the Eagle Fund I built a quantitative screening framework on the Bloomberg Terminal that combines factor signals with the sector leads' fundamental research. On my own time I run DB-Quant, a multi-factor equity model in Python with a full research and backtesting pipeline.</p>
+      <p style="margin: 0px; max-width: 56ch; font-size: 16px; line-height: 1.75; color: rgb(76, 86, 107);">Native German speaker. Former chess club president, violinist and pianist in a youth philharmonic, and marathon runner.</p>
+      <div class="m-hide" style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px;">
         <a href="/resume" style="padding: 12px 24px; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(10, 22, 40); border: 1.5px solid rgb(10, 22, 40);" class="scp3">Full resume</a>
         <a href="https://www.linkedin.com/in/dario-benes/" target="_blank" rel="noopener" style="padding: 12px 24px; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(10, 22, 40); border: 1.5px solid rgba(10, 22, 40, 0.25);" class="scp4">LinkedIn</a>
       </div>
     </div>
   </section>
 
-  <section data-reveal="" style="background: rgb(255, 255, 255); border-top: 1px solid rgb(228, 231, 239); padding: clamp(56px, 7vw, 104px) clamp(20px, 4vw, 48px);">
+  <section data-reveal="" class="m-exp" style="background: rgb(255, 255, 255); border-top: 1px solid rgb(228, 231, 239); padding: clamp(56px, 7vw, 104px) clamp(20px, 4vw, 48px);">
     <div style="max-width: min(1560px, 94vw); margin: 0px auto; display: flex; flex-direction: column; gap: clamp(32px, 4vw, 52px);">
       <div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 20px;">
         <div>
           <p style="margin: 0px 0px 12px; font-size: 11px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: rgb(34, 81, 204);" data-label="">Track record</p>
           <h2 style="margin: 0px; font-family: &quot;Newsreader&quot;, serif; font-weight: 400; font-size: clamp(28px, 3.6vw, 44px); line-height: 1.15; color: rgb(10, 22, 40);">Where I have worked</h2>
         </div>
-        <a href="/resume" style="font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(34, 81, 204);">Resume &amp; education →</a>
+        <a href="/resume" class="m-hide" style="font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(34, 81, 204);">Resume &amp; education →</a>
       </div>
 
       <div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); gap: clamp(24px, 3vw, 40px);">
@@ -437,10 +522,11 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
           </article>
         
       </div>
+      <a href="/resume" class="m-only m-more">Full resume →</a>
     </div>
   </section>
 
-  <section data-reveal="" style="background: rgb(10, 22, 40); padding: clamp(56px, 7vw, 104px) clamp(20px, 4vw, 48px);">
+  <section data-reveal="" class="m-work" style="background: rgb(10, 22, 40); padding: clamp(56px, 7vw, 104px) clamp(20px, 4vw, 48px);">
     <div style="max-width: min(1560px, 94vw); margin: 0px auto;">
       <h2 style="margin: 0px 0px clamp(28px, 4vw, 48px); font-family: &quot;Newsreader&quot;, serif; font-weight: 400; font-size: clamp(28px, 3.6vw, 44px); line-height: 1.15; color: rgb(255, 255, 255);">The work itself</h2>
       <div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 20px;">
@@ -531,7 +617,7 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
           
             <div style="border-top: 1px solid rgb(211, 214, 223); padding-top: 14px;">
               <dt style="font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: rgb(122, 131, 151);"><span class="sc-interp">Outside work</span></dt>
-              <dd style="margin: 8px 0px 0px; font-size: 15px; line-height: 1.6; color: rgb(26, 31, 46);"><span class="sc-interp">Marathon runner, violinist and pianist (youth philharmonic), former chess club president, poker player</span></dd>
+              <dd style="margin: 8px 0px 0px; font-size: 15px; line-height: 1.6; color: rgb(26, 31, 46);"><span class="sc-interp">Marathon runner, violinist and pianist (youth philharmonic), former chess club president</span></dd>
             </div>
           
             <div style="border-top: 1px solid rgb(211, 214, 223); padding-top: 14px;">
@@ -599,4 +685,4 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
 
 
 
-<script>(function(){var els=[].slice.call(document.querySelectorAll('[data-reveal]'));if(!els.length)return;if(!('IntersectionObserver' in window)){els.forEach(function(el){el.setAttribute('data-in','')});return}var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)e.target.setAttribute('data-in','');else e.target.removeAttribute('data-in')})},{rootMargin:'0px 0px -6% 0px',threshold:0.04});els.forEach(function(el){io.observe(el)})})();</script><script>(function(){var n=document.querySelector('nav'),b=n&&n.querySelector('.nav-toggle');if(!b)return;n.setAttribute('data-js','');var l=b.querySelector('.nav-toggle-label');function set(o){if(o)n.setAttribute('data-open','');else n.removeAttribute('data-open');b.setAttribute('aria-expanded',o?'true':'false');l.textContent=o?'Close':'Menu'}b.addEventListener('click',function(){set(!n.hasAttribute('data-open'))});document.addEventListener('keydown',function(e){if(e.key==='Escape')set(false)});window.addEventListener('resize',function(){if(window.innerWidth>=768)set(false)})})();</script></body></html>
+<script>(function(){var els=[].slice.call(document.querySelectorAll('[data-reveal]'));if(!els.length)return;if(!('IntersectionObserver' in window)||(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)){els.forEach(function(el){el.setAttribute('data-in','')});return}var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.setAttribute('data-in','');io.unobserve(e.target)}})},{rootMargin:'0px 0px -6% 0px',threshold:0.04});els.forEach(function(el){io.observe(el)})})();</script><script>(function(){var n=document.querySelector('nav'),b=n&&n.querySelector('.nav-toggle');if(!b)return;n.setAttribute('data-js','');var l=b.querySelector('.nav-toggle-label');function set(o){if(o)n.setAttribute('data-open','');else n.removeAttribute('data-open');b.setAttribute('aria-expanded',o?'true':'false');l.textContent=o?'Close':'Menu'}b.addEventListener('click',function(){set(!n.hasAttribute('data-open'))});document.addEventListener('keydown',function(e){if(e.key==='Escape')set(false)});window.addEventListener('resize',function(){if(window.innerWidth>=768)set(false)});[].forEach.call(n.querySelectorAll('.nav-links a'),function(a){a.addEventListener('click',function(){set(false)})})})();</script></body></html>
