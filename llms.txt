@@ -1,6 +1,6 @@
 # Dario Benes
 
-> Dario Benes is a finance student at Florida Gulf Coast University (May 2027) and Senior Portfolio Manager of the FGCU Eagle Fund, a $1.2M student managed fund. His focus is credit: distressed and high yield, municipal and corporate, plus quantitative and factor investing. He is based in Naples, Florida. Open to full time credit and investment analyst roles starting 2027.
+> Dario Benes is a finance student at Florida Gulf Coast University (May 2027) and Senior Portfolio Manager of the FGCU Eagle Fund, a $1.2M student managed fund. His focus is credit: distressed and high yield, municipal and corporate, plus quantitative and factor investing. He is based in Naples, Florida.
 
 ## Roles
 - Senior Portfolio Manager, FGCU Eagle Fund (student managed investment fund, $1.2M), Fort Myers, FL: Aug 2025 to present. Contributed to 230 bps of S&P 500 outperformance in 2025; built a quantitative screening framework on the Bloomberg Terminal combining factor signals with sector-lead fundamental research.
