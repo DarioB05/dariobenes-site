@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dario Benes, Market Outlook</title>
+    <link>https://dariobenes.com/outlook</link>
+    <atom:link href="https://dariobenes.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Market notes by Dario Benes, Senior Portfolio Manager of the FGCU Eagle Fund: where consensus is wrong, on credit and equities.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <managingEditor>dbenes1381@eagle.fgcu.edu (Dario Benes)</managingEditor>
+    <image>
+      <url>https://dariobenes.com/apple-touch-icon.png</url>
+      <title>Dario Benes, Market Outlook</title>
+      <link>https://dariobenes.com/outlook</link>
+    </image>
+    <!-- Add each new note as an item, newest first. Example:
+    <item>
+      <title>Note title</title>
+      <link>https://dariobenes.com/outlook#note-slug</link>
+      <guid isPermaLink="true">https://dariobenes.com/outlook#note-slug</guid>
+      <pubDate>Mon, 07 Dec 2026 12:00:00 +0000</pubDate>
+      <description>One or two sentence summary.</description>
+    </item>
+    -->
+  </channel>
+</rss>

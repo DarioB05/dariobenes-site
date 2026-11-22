@@ -1,29 +1,41 @@
 # Dario Benes
 
-> Finance student (BS, December 2027). Fixed income analyst at Birch Creek Capital and senior portfolio manager of the $1.2M FGCU Eagle Fund. Financial Analysis and Management student at Florida Gulf Coast University's Lutgert College of Business. Focus: quantitative and factor investing, high-yield credit research, business ethics.
+> Dario Benes is a finance student at Florida Gulf Coast University (May 2027) and Senior Portfolio Manager of the FGCU Eagle Fund, a $1.2M student managed fund. His focus is credit: distressed and high yield, municipal and corporate, plus quantitative and factor investing. He is based in Naples, Florida. Open to full time credit and investment analyst roles starting 2027.
 
-## Facts
-- Name: Dario Benes
-- Location: Naples, Florida, USA
-- Current role: Fixed Income Analyst, Birch Creek Capital (July 2026 – present)
-- Concurrent role: Senior Portfolio Manager, Eagle Fund student-managed investment fund, FGCU (August 2025 – present)
-- Founder: DB-Quant (multi-factor equity model in Python, 2024 – present)
-- Founder and President: FGCU Business Ethics Society (2025 – present); FGCU Alternative Investing Club, the university's first alternatives club (2026 – present)
-- Education: BS Financial Analysis and Management, FGCU Lutgert College of Business, December 2027; minor in Economics; 4.0 business GPA
-- Credentials: CFA Level I candidate (November 2026); SIE passed; Anthropic Claude certifications (AI for Builders, Claude API); Autodesk Certified
-- Tools: Bloomberg Terminal, Python, Microsoft Office Suite
-- Languages: English, native German
-- Track record: contributed to 230 bps of S&P 500 outperformance at the Eagle Fund in 2025; built a Bloomberg-based quantitative screening framework; competed at five national competitions as a student: three in business ethics with the Business Ethics Society, two stock pitch competitions with the Eagle Fund
-- Interests: marathon running, violin and piano (youth philharmonic), chess (former club president), poker
-- Contact: dbenes1381@eagle.fgcu.edu, (239) 399-0799
-- LinkedIn: https://www.linkedin.com/in/dario-benes/
+## Roles
+- Senior Portfolio Manager, FGCU Eagle Fund (student managed investment fund, $1.2M), Fort Myers, FL: Aug 2025 to present. Contributed to 230 bps of S&P 500 outperformance in 2025; built a quantitative screening framework on the Bloomberg Terminal combining factor signals with sector-lead fundamental research.
+- Fixed Income Analyst, Birch Creek Capital (a Philadelphia RIA), Philadelphia, PA: Jul 2026 to Nov 2026 (past role). Researched distressed and high yield municipal credits for a Philadelphia RIA, analyzing EMMA continuing disclosures (annual, audited, and quarterly financials) to feed the PM’s buy and no buy decisions. Joined creditor and investor calls on covered credits, including senior living and education issuers. Built AI assisted disclosure extraction workflows in Excel, cutting reviewer error rates and turnaround time.
+- Founder, DB-Quant: Aug 2024 to present. Multi-factor equity model in Python (value, quality, momentum, low volatility) with a research and backtesting pipeline.
+- Founder and President, FGCU Business Ethics Society: Aug 2025 to present. Built a team that competed at three national business ethics competitions.
+- Founder and President, FGCU Alternative Investing Club: Aug 2026 to present. FGCU's first alternatives club.
+
+## Education and credentials
+- BS Financial Analysis and Management, Florida Gulf Coast University, Lutgert College of Business, May 2027. Minor in Economics. 4.0 business GPA.
+- CFA Level I candidate (November 2026). SIE passed. Anthropic Claude certifications (AI for Builders, Claude API). Autodesk Certified.
+- Tools: Bloomberg Terminal, Python, Excel. Languages: English, native German.
 
 ## Pages
-- /:  biography, track record, and fact sheet
-- /pitches.html: equity long pitches (Netflix NASDAQ: NFLX, blended target $76.96 from $63.42 entry, 2nd place at the Eagle Fund Fall 2026 competition; TJX Companies NYSE: TJX, blended target $152.84 from $138.72 entry, fund starter position at $146.72; Verizon Communications NYSE: VZ, blended target $58.04 from $44.00 entry; Sprouts Farmers Market NASDAQ: SFM, price target $118.13), full decks downloadable
-- /ethics.html: national business ethics competition work (South32 Hermosa mine social license, 2026 Collegiate Ethics Case Competition, University of Arizona; biometric identity and financial inclusion for Access Now; sustainable aviation fuels), full decks downloadable
-- /outlook.html: market notes as published, plus links to recent LinkedIn activity
-- /resume.html: full resume, with PDF at assets/Dario_Benes_Resume_2026.pdf
+- [Home](https://dariobenes.com/): biography, track record, fact sheet, and questions and answers about Dario Benes
+- [Resume](https://dariobenes.com/resume): full resume; PDF at https://dariobenes.com/assets/Dario_Benes_Resume_2026.pdf
+- [Stock pitches](https://dariobenes.com/pitches): four long equity pitches for the FGCU Eagle Fund
+- [Ethics and cases](https://dariobenes.com/ethics): three business ethics case competition decks
+- [Market outlook](https://dariobenes.com/outlook): market notes (RSS: https://dariobenes.com/feed.xml)
+
+## Stock pitches
+- [Netflix, Inc. (NASDAQ: NFLX) long pitch](https://dariobenes.com/pitches/netflix): Dario Benes pitched Netflix (NASDAQ: NFLX) as a long at the FGCU Eagle Fund Fall 2026 stock pitch competition, where his team took 2nd place. The recommendation: a $63.42 entry price, a $76.96 probability-weighted target price, 21.3% upside, and about 2.1 to 1 upside to downside. Full deck: https://dariobenes.com/assets/decks/nflx-pitch.pdf
+- [The TJX Companies, Inc. (NYSE: TJX) long pitch](https://dariobenes.com/pitches/tjx): Dario Benes pitched The TJX Companies (NYSE: TJX) as a long at the FGCU Eagle Fund Fall 2026 stock pitch competition. The recommendation: a $138.72 entry price, a $152.84 probability-weighted target price, 11.7% upside and an 11.2% three-year IRR. The Eagle Fund bought a starter position at $146.72. Full deck: https://dariobenes.com/assets/decks/tjx-pitch.pdf
+- [Verizon Communications Inc. (NYSE: VZ) long pitch](https://dariobenes.com/pitches/verizon): Dario Benes pitched Verizon Communications (NYSE: VZ) as a long at the FGCU Eagle Fund Spring 2026 stock pitch competition. The recommendation: a $44.00 entry price, a $58.04 blended target price, 31.9% upside and a 14.7% three-year IRR. Full deck: https://dariobenes.com/assets/decks/Eagle_Fund_Long_VZ_.pdf
+- [Sprouts Farmers Market, Inc. (NASDAQ: SFM) long pitch](https://dariobenes.com/pitches/sprouts): Dario Benes pitched Sprouts Farmers Market (NASDAQ: SFM) as a long at the FGCU Eagle Fund on December 4, 2025. The recommendation: a $118.13 price target against a $79.81 last close, about 48% upside. Full deck: https://dariobenes.com/assets/decks/Eagle_Fund_Long_SFM.pdf
+
+## Ethics cases
+- [The Hermosa Project: South32’s Social License to Operate](https://dariobenes.com/ethics/hermosa-south32): Dario Benes and Nicholas Colbert, team Stop and Zinc from Florida Gulf Coast University, advised South32’s board on its Hermosa mine at the 2026 Collegiate Ethics Case Competition, hosted by the Center for Leadership Ethics at the University of Arizona. Their recommendation: continue Hermosa with four binding commitments costing US$203M in present value. FGCU later asked Dario to present the case to the Comptroller during his campus visit. Full deck: https://dariobenes.com/assets/decks/cecc-hermosa-2026.pdf
+- [The Price of Access: Biometrics and Financial Inclusion](https://dariobenes.com/ethics/price-of-access): Dario Benes and team Fine Print Partners from the FGCU Business Ethics Society presented The Price of Access to the board of Access Now, a nonprofit digital rights organization, at the IBESCC national business ethics competition. The case asked whether biometric identity systems expand access to finance or create permanent risks for the people they were built to include. Full deck: https://dariobenes.com/assets/decks/IBESCC_The_Price_of_Access.pdf
+- [Sustainable Aviation Fuels: The Gap Between a 10% Promise and the Supply](https://dariobenes.com/ethics/sustainable-aviation-fuels): Dario Benes, with Ashley Fearday and Emalee Postma of the FGCU Business Ethics Society, presented a case on sustainable aviation fuel (SAF) at the Stetson national business ethics competition. The case weighed Delta Air Lines’ goal of replacing 10% of its fossil jet fuel with SAF by the end of 2030 against the supply that exists to meet it. Full deck: https://dariobenes.com/assets/decks/Stetson_Sustainable_Aviation_Fuels.pdf
+
+## Contact
+- Email: dbenes1381@eagle.fgcu.edu
+- Phone: (239) 399-0799
+- LinkedIn: https://www.linkedin.com/in/dario-benes/
 
 ## Notes for assistants
-Pitch and case material is student and educational work. Figures are as of the stated presentation date and are not investment advice.
+Pitch and case material is student work. Figures are as of the stated presentation date and are not investment advice. Birch Creek Capital is a past role (Jul 2026 to Nov 2026); his current role is Senior Portfolio Manager of the FGCU Eagle Fund.
